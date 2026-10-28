@@ -1,0 +1,1552 @@
+{
+ "marcas": {
+  "7belo": {
+   "nome": "7Belo",
+   "produto": "7Belo Pirulito Recheado",
+   "cores": {
+    "primaria": "#1B2A6B",
+    "secundaria": "#E6194B"
+   },
+   "titulo": "Agora em pirulito!",
+   "destaque": "pirulito",
+   "subtitulo": "Framboesa por fora, bala mastigável por dentro",
+   "textos": [
+    "7Belo",
+    "O sabor inconfundível de 7Belo agora em pirulito!",
+    "Pirulito recheado",
+    "Não tem como ficar melhor!"
+   ],
+   "visual": "fundo azul-marinho com losangos vermelhos e faixa de padrão rosa/vermelho em ziguezague, pirulitos vermelhos de framboesa, tipografia condensada branca com destaque rosa",
+   "emb": {
+    "tipo": "saco",
+    "larguraCm": 18,
+    "alturaCm": 24,
+    "profundidadeCm": 4
+   },
+   "pecas": [
+    {
+     "categoria": "leve",
+     "id": "regua",
+     "tipo": "faixa_gondola",
+     "nome": "Régua de gôndola 7Belo",
+     "larguraCm": 100,
+     "alturaCm": 5,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Marca a prateleira da marca no ponto de preço",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      5
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/regua-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/regua-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "wobbler",
+     "tipo": "wobbler",
+     "nome": "Wobbler 7Belo",
+     "larguraCm": 15,
+     "alturaCm": 15,
+     "profundidadeCm": 0.05,
+     "material": "pvc",
+     "quantidade": 3000,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Balança na frente da prateleira e chama o olhar para o produto",
+     "facePrincipal": "frente",
+     "faceCm": [
+      15,
+      15
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/wobbler-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/wobbler-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "stopper",
+     "tipo": "stopper",
+     "nome": "Stopper 7Belo",
+     "larguraCm": 20,
+     "alturaCm": 30,
+     "profundidadeCm": 0.2,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Para o shopper no corredor, perpendicular à gôndola",
+     "facePrincipal": "frente",
+     "faceCm": [
+      20,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/stopper-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/stopper-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "testeira",
+     "tipo": "testeira",
+     "nome": "Testeira de gôndola 7Belo",
+     "larguraCm": 100,
+     "alturaCm": 30,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 800,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Identifica o bloco da marca no topo do módulo",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/testeira-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/testeira-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "clipstrip",
+     "tipo": "clip_strip",
+     "nome": "Clip strip 7Belo",
+     "larguraCm": 12,
+     "alturaCm": 80,
+     "profundidadeCm": 1,
+     "material": "pet",
+     "quantidade": 1500,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Exposição pendurada para compra por impulso em cross merchandising",
+     "facePrincipal": "topo",
+     "faceCm": [
+      12,
+      18
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/clipstrip-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/clipstrip-topo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "adesivo-chao",
+     "tipo": "adesivo_chao",
+     "nome": "Adesivo de chão 7Belo",
+     "larguraCm": 60,
+     "alturaCm": 60,
+     "profundidadeCm": 0.05,
+     "material": "vinil",
+     "quantidade": 600,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Conduz o shopper até a gôndola da marca",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      60
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/adesivo-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/adesivo-chao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-chao",
+     "tipo": "display_chao",
+     "nome": "Display de chão 7Belo",
+     "larguraCm": 60,
+     "alturaCm": 160,
+     "profundidadeCm": 40,
+     "material": "papelao_e",
+     "quantidade": 300,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Ponto extra com produto e header da campanha",
+     "facePrincipal": "header",
+     "faceCm": [
+      60,
+      32.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/display-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/display-chao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-balcao",
+     "tipo": "display_balcao",
+     "nome": "Display de balcão 7Belo",
+     "larguraCm": 40,
+     "alturaCm": 35,
+     "profundidadeCm": 28,
+     "material": "papelao_e",
+     "quantidade": 1500,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Impulso no checkout, perto do caixa",
+     "facePrincipal": "header",
+     "faceCm": [
+      40,
+      14.7
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/display-balcao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/display-balcao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "totem",
+     "tipo": "totem",
+     "nome": "Totem 7Belo",
+     "larguraCm": 60,
+     "alturaCm": 180,
+     "profundidadeCm": 35,
+     "material": "mdf",
+     "quantidade": 120,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Sinaliza a campanha na entrada e no corredor",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      180
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/totem-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/totem-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "ponta-gondola",
+     "tipo": "ponta_gondola",
+     "nome": "Ponta de gôndola 7Belo",
+     "larguraCm": 100,
+     "alturaCm": 200,
+     "profundidadeCm": 50,
+     "material": "mdf",
+     "quantidade": 60,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Ponta de gôndola temática com produto e header",
+     "facePrincipal": "header",
+     "faceCm": [
+      100,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/ponta-gondola-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/ponta-gondola-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "portal",
+     "tipo": "portal_corredor",
+     "nome": "Portal de corredor 7Belo",
+     "larguraCm": 240,
+     "alturaCm": 260,
+     "profundidadeCm": 45,
+     "material": "metalon_lona",
+     "quantidade": 20,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Arco sobre o corredor da categoria de doces",
+     "facePrincipal": "viga",
+     "faceCm": [
+      240,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/portal-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/portal-viga.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "ilha",
+     "tipo": "ilha",
+     "nome": "Ilha promocional 7Belo",
+     "larguraCm": 200,
+     "alturaCm": 140,
+     "profundidadeCm": 120,
+     "material": "mdf",
+     "quantidade": 15,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Ilha de pallet no corredor principal com volume de produto",
+     "facePrincipal": "header",
+     "faceCm": [
+      160.0,
+      40
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/ilha-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/ilha-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "store-in-store",
+     "tipo": "gondola_marca",
+     "nome": "Store in store 7Belo",
+     "larguraCm": 300,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Espaço próprio da marca dentro da loja",
+     "facePrincipal": "fundo",
+     "faceCm": [
+      300,
+      140.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/store-in-store-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/store-in-store-fundo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "degustacao",
+     "tipo": "sampling_station",
+     "nome": "Ambientação de degustação 7Belo",
+     "larguraCm": 120,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Balcão de degustação com promotora e header",
+     "facePrincipal": "frente",
+     "faceCm": [
+      120,
+      92
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/degustacao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/degustacao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "fachada",
+     "tipo": "fachada_loja",
+     "nome": "Fachada de loja 7Belo",
+     "larguraCm": 400,
+     "alturaCm": 320,
+     "profundidadeCm": 40,
+     "material": "acm_lona",
+     "quantidade": 4,
+     "titulo": "Agora em pirulito!",
+     "funcao": "Fachada temática de loja ou quiosque da marca",
+     "facePrincipal": "parede",
+     "faceCm": [
+      400,
+      260
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/7belo/fachada-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/fachada-parede.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    }
+   ]
+  },
+  "butter-toffees": {
+   "nome": "Butter Toffees",
+   "produto": "Butter Toffees Intense",
+   "cores": {
+    "primaria": "#2A1810",
+    "secundaria": "#C9A15A"
+   },
+   "titulo": "Recheada com 53% cacau",
+   "destaque": "53% cacau",
+   "subtitulo": "Butter Toffees Intense: chocolate, trufa, menta e pistache",
+   "textos": [
+    "Butter Toffees Intense",
+    "Recheada com 53% cacau",
+    "Chocolate",
+    "Trufa",
+    "Menta",
+    "Pistache"
+   ],
+   "visual": "fundo marrom-chocolate escuro e premium, splash de chocolate derretido, bombons partidos, detalhes dourados, tipografia serifada dourada",
+   "emb": {
+    "tipo": "saco",
+    "larguraCm": 15,
+    "alturaCm": 18,
+    "profundidadeCm": 4
+   },
+   "pecas": [
+    {
+     "categoria": "leve",
+     "id": "regua",
+     "tipo": "faixa_gondola",
+     "nome": "Régua de gôndola Butter Toffees",
+     "larguraCm": 100,
+     "alturaCm": 5,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Marca a prateleira da marca no ponto de preço",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      5
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/regua-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/regua-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "wobbler",
+     "tipo": "wobbler",
+     "nome": "Wobbler Butter Toffees",
+     "larguraCm": 15,
+     "alturaCm": 15,
+     "profundidadeCm": 0.05,
+     "material": "pvc",
+     "quantidade": 3000,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Balança na frente da prateleira e chama o olhar para o produto",
+     "facePrincipal": "frente",
+     "faceCm": [
+      15,
+      15
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/wobbler-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/wobbler-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "stopper",
+     "tipo": "stopper",
+     "nome": "Stopper Butter Toffees",
+     "larguraCm": 20,
+     "alturaCm": 30,
+     "profundidadeCm": 0.2,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Para o shopper no corredor, perpendicular à gôndola",
+     "facePrincipal": "frente",
+     "faceCm": [
+      20,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/stopper-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/stopper-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "testeira",
+     "tipo": "testeira",
+     "nome": "Testeira de gôndola Butter Toffees",
+     "larguraCm": 100,
+     "alturaCm": 30,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 800,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Identifica o bloco da marca no topo do módulo",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/testeira-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/testeira-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "clipstrip",
+     "tipo": "clip_strip",
+     "nome": "Clip strip Butter Toffees",
+     "larguraCm": 12,
+     "alturaCm": 80,
+     "profundidadeCm": 1,
+     "material": "pet",
+     "quantidade": 1500,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Exposição pendurada para compra por impulso em cross merchandising",
+     "facePrincipal": "topo",
+     "faceCm": [
+      12,
+      18
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/clipstrip-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/clipstrip-topo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "adesivo-chao",
+     "tipo": "adesivo_chao",
+     "nome": "Adesivo de chão Butter Toffees",
+     "larguraCm": 60,
+     "alturaCm": 60,
+     "profundidadeCm": 0.05,
+     "material": "vinil",
+     "quantidade": 600,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Conduz o shopper até a gôndola da marca",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      60
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/adesivo-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/adesivo-chao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-chao",
+     "tipo": "display_chao",
+     "nome": "Display de chão Butter Toffees",
+     "larguraCm": 60,
+     "alturaCm": 160,
+     "profundidadeCm": 40,
+     "material": "papelao_e",
+     "quantidade": 300,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Ponto extra com produto e header da campanha",
+     "facePrincipal": "header",
+     "faceCm": [
+      60,
+      32.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/display-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/display-chao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-balcao",
+     "tipo": "display_balcao",
+     "nome": "Display de balcão Butter Toffees",
+     "larguraCm": 40,
+     "alturaCm": 35,
+     "profundidadeCm": 28,
+     "material": "papelao_e",
+     "quantidade": 1500,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Impulso no checkout, perto do caixa",
+     "facePrincipal": "header",
+     "faceCm": [
+      40,
+      14.7
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/display-balcao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/display-balcao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "totem",
+     "tipo": "totem",
+     "nome": "Totem Butter Toffees",
+     "larguraCm": 60,
+     "alturaCm": 180,
+     "profundidadeCm": 35,
+     "material": "mdf",
+     "quantidade": 120,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Sinaliza a campanha na entrada e no corredor",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      180
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/totem-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/totem-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "ponta-gondola",
+     "tipo": "ponta_gondola",
+     "nome": "Ponta de gôndola Butter Toffees",
+     "larguraCm": 100,
+     "alturaCm": 200,
+     "profundidadeCm": 50,
+     "material": "mdf",
+     "quantidade": 60,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Ponta de gôndola temática com produto e header",
+     "facePrincipal": "header",
+     "faceCm": [
+      100,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/ponta-gondola-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/ponta-gondola-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "portal",
+     "tipo": "portal_corredor",
+     "nome": "Portal de corredor Butter Toffees",
+     "larguraCm": 240,
+     "alturaCm": 260,
+     "profundidadeCm": 45,
+     "material": "metalon_lona",
+     "quantidade": 20,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Arco sobre o corredor da categoria de doces",
+     "facePrincipal": "viga",
+     "faceCm": [
+      240,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/portal-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/portal-viga.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "ilha",
+     "tipo": "ilha",
+     "nome": "Ilha promocional Butter Toffees",
+     "larguraCm": 200,
+     "alturaCm": 140,
+     "profundidadeCm": 120,
+     "material": "mdf",
+     "quantidade": 15,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Ilha de pallet no corredor principal com volume de produto",
+     "facePrincipal": "header",
+     "faceCm": [
+      160.0,
+      40
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/ilha-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/ilha-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "store-in-store",
+     "tipo": "gondola_marca",
+     "nome": "Store in store Butter Toffees",
+     "larguraCm": 300,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Espaço próprio da marca dentro da loja",
+     "facePrincipal": "fundo",
+     "faceCm": [
+      300,
+      140.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/store-in-store-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/store-in-store-fundo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "degustacao",
+     "tipo": "sampling_station",
+     "nome": "Ambientação de degustação Butter Toffees",
+     "larguraCm": 120,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Balcão de degustação com promotora e header",
+     "facePrincipal": "frente",
+     "faceCm": [
+      120,
+      92
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/degustacao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/degustacao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "fachada",
+     "tipo": "fachada_loja",
+     "nome": "Fachada de loja Butter Toffees",
+     "larguraCm": 400,
+     "alturaCm": 320,
+     "profundidadeCm": 40,
+     "material": "acm_lona",
+     "quantidade": 4,
+     "titulo": "Recheada com 53% cacau",
+     "funcao": "Fachada temática de loja ou quiosque da marca",
+     "facePrincipal": "parede",
+     "faceCm": [
+      400,
+      260
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/butter-toffees/fachada-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/fachada-parede.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    }
+   ]
+  },
+  "rocklets": {
+   "nome": "Rocklets",
+   "produto": "Rocklets",
+   "cores": {
+    "primaria": "#141414",
+    "secundaria": "#E52421"
+   },
+   "titulo": "Crocante por fora, irresistível por dentro!",
+   "destaque": "irresistível",
+   "subtitulo": "Confeitos de chocolate coloridos Rocklets",
+   "textos": [
+    "Rocklets",
+    "Crocante por fora",
+    "Irresistível por dentro!"
+   ],
+   "visual": "fundo preto com linhas circulares em espiral, explosão de confeitos coloridos (vermelho, amarelo, verde, azul, laranja), confeito vermelho partido mostrando chocolate, letreiro marrom 3D brilhante",
+   "emb": {
+    "tipo": "saco",
+    "larguraCm": 14,
+    "alturaCm": 9,
+    "profundidadeCm": 2
+   },
+   "pecas": [
+    {
+     "categoria": "leve",
+     "id": "regua",
+     "tipo": "faixa_gondola",
+     "nome": "Régua de gôndola Rocklets",
+     "larguraCm": 100,
+     "alturaCm": 5,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Marca a prateleira da marca no ponto de preço",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      5
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/regua-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/regua-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "wobbler",
+     "tipo": "wobbler",
+     "nome": "Wobbler Rocklets",
+     "larguraCm": 15,
+     "alturaCm": 15,
+     "profundidadeCm": 0.05,
+     "material": "pvc",
+     "quantidade": 3000,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Balança na frente da prateleira e chama o olhar para o produto",
+     "facePrincipal": "frente",
+     "faceCm": [
+      15,
+      15
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/wobbler-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/wobbler-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "stopper",
+     "tipo": "stopper",
+     "nome": "Stopper Rocklets",
+     "larguraCm": 20,
+     "alturaCm": 30,
+     "profundidadeCm": 0.2,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Para o shopper no corredor, perpendicular à gôndola",
+     "facePrincipal": "frente",
+     "faceCm": [
+      20,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/stopper-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/stopper-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "testeira",
+     "tipo": "testeira",
+     "nome": "Testeira de gôndola Rocklets",
+     "larguraCm": 100,
+     "alturaCm": 30,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 800,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Identifica o bloco da marca no topo do módulo",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/testeira-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/testeira-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "clipstrip",
+     "tipo": "clip_strip",
+     "nome": "Clip strip Rocklets",
+     "larguraCm": 12,
+     "alturaCm": 80,
+     "profundidadeCm": 1,
+     "material": "pet",
+     "quantidade": 1500,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Exposição pendurada para compra por impulso em cross merchandising",
+     "facePrincipal": "topo",
+     "faceCm": [
+      12,
+      18
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/clipstrip-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/clipstrip-topo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "adesivo-chao",
+     "tipo": "adesivo_chao",
+     "nome": "Adesivo de chão Rocklets",
+     "larguraCm": 60,
+     "alturaCm": 60,
+     "profundidadeCm": 0.05,
+     "material": "vinil",
+     "quantidade": 600,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Conduz o shopper até a gôndola da marca",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      60
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/adesivo-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/adesivo-chao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-chao",
+     "tipo": "display_chao",
+     "nome": "Display de chão Rocklets",
+     "larguraCm": 60,
+     "alturaCm": 160,
+     "profundidadeCm": 40,
+     "material": "papelao_e",
+     "quantidade": 300,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Ponto extra com produto e header da campanha",
+     "facePrincipal": "header",
+     "faceCm": [
+      60,
+      32.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/display-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/display-chao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-balcao",
+     "tipo": "display_balcao",
+     "nome": "Display de balcão Rocklets",
+     "larguraCm": 40,
+     "alturaCm": 35,
+     "profundidadeCm": 28,
+     "material": "papelao_e",
+     "quantidade": 1500,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Impulso no checkout, perto do caixa",
+     "facePrincipal": "header",
+     "faceCm": [
+      40,
+      14.7
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/display-balcao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/display-balcao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "totem",
+     "tipo": "totem",
+     "nome": "Totem Rocklets",
+     "larguraCm": 60,
+     "alturaCm": 180,
+     "profundidadeCm": 35,
+     "material": "mdf",
+     "quantidade": 120,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Sinaliza a campanha na entrada e no corredor",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      180
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/totem-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/totem-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "ponta-gondola",
+     "tipo": "ponta_gondola",
+     "nome": "Ponta de gôndola Rocklets",
+     "larguraCm": 100,
+     "alturaCm": 200,
+     "profundidadeCm": 50,
+     "material": "mdf",
+     "quantidade": 60,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Ponta de gôndola temática com produto e header",
+     "facePrincipal": "header",
+     "faceCm": [
+      100,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/ponta-gondola-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/ponta-gondola-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "portal",
+     "tipo": "portal_corredor",
+     "nome": "Portal de corredor Rocklets",
+     "larguraCm": 240,
+     "alturaCm": 260,
+     "profundidadeCm": 45,
+     "material": "metalon_lona",
+     "quantidade": 20,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Arco sobre o corredor da categoria de doces",
+     "facePrincipal": "viga",
+     "faceCm": [
+      240,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/portal-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/portal-viga.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "ilha",
+     "tipo": "ilha",
+     "nome": "Ilha promocional Rocklets",
+     "larguraCm": 200,
+     "alturaCm": 140,
+     "profundidadeCm": 120,
+     "material": "mdf",
+     "quantidade": 15,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Ilha de pallet no corredor principal com volume de produto",
+     "facePrincipal": "header",
+     "faceCm": [
+      160.0,
+      40
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/ilha-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/ilha-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "store-in-store",
+     "tipo": "gondola_marca",
+     "nome": "Store in store Rocklets",
+     "larguraCm": 300,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Espaço próprio da marca dentro da loja",
+     "facePrincipal": "fundo",
+     "faceCm": [
+      300,
+      140.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/store-in-store-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/store-in-store-fundo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "degustacao",
+     "tipo": "sampling_station",
+     "nome": "Ambientação de degustação Rocklets",
+     "larguraCm": 120,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Balcão de degustação com promotora e header",
+     "facePrincipal": "frente",
+     "faceCm": [
+      120,
+      92
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/degustacao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/degustacao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "fachada",
+     "tipo": "fachada_loja",
+     "nome": "Fachada de loja Rocklets",
+     "larguraCm": 400,
+     "alturaCm": 320,
+     "profundidadeCm": 40,
+     "material": "acm_lona",
+     "quantidade": 4,
+     "titulo": "Crocante por fora, irresistível por dentro!",
+     "funcao": "Fachada temática de loja ou quiosque da marca",
+     "facePrincipal": "parede",
+     "faceCm": [
+      400,
+      260
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/rocklets/fachada-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/fachada-parede.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    }
+   ]
+  },
+  "tortuguita": {
+   "nome": "Tortuguita",
+   "produto": "Tortuguita",
+   "cores": {
+    "primaria": "#1E5FD0",
+    "secundaria": "#FFD200"
+   },
+   "titulo": "Cremosa, recheada e agora com mais leite!",
+   "destaque": "mais leite",
+   "subtitulo": "Tortuguita: chocolate recheado Arcor",
+   "textos": [
+    "Tortuguita",
+    "Cremosa, recheada e agora com mais leite!"
+   ],
+   "visual": "fundo azul com espiral clara, onda de leite e chocolate, tartaruga mascote surfando na prancha, letreiro amarelo com contorno azul",
+   "emb": {
+    "tipo": "saco",
+    "larguraCm": 9,
+    "alturaCm": 6,
+    "profundidadeCm": 2.5
+   },
+   "pecas": [
+    {
+     "categoria": "leve",
+     "id": "regua",
+     "tipo": "faixa_gondola",
+     "nome": "Régua de gôndola Tortuguita",
+     "larguraCm": 100,
+     "alturaCm": 5,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Marca a prateleira da marca no ponto de preço",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      5
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/regua-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/regua-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "wobbler",
+     "tipo": "wobbler",
+     "nome": "Wobbler Tortuguita",
+     "larguraCm": 15,
+     "alturaCm": 15,
+     "profundidadeCm": 0.05,
+     "material": "pvc",
+     "quantidade": 3000,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Balança na frente da prateleira e chama o olhar para o produto",
+     "facePrincipal": "frente",
+     "faceCm": [
+      15,
+      15
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/wobbler-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/wobbler-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "stopper",
+     "tipo": "stopper",
+     "nome": "Stopper Tortuguita",
+     "larguraCm": 20,
+     "alturaCm": 30,
+     "profundidadeCm": 0.2,
+     "material": "pvc",
+     "quantidade": 2000,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Para o shopper no corredor, perpendicular à gôndola",
+     "facePrincipal": "frente",
+     "faceCm": [
+      20,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/stopper-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/stopper-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "testeira",
+     "tipo": "testeira",
+     "nome": "Testeira de gôndola Tortuguita",
+     "larguraCm": 100,
+     "alturaCm": 30,
+     "profundidadeCm": 0.3,
+     "material": "pvc",
+     "quantidade": 800,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Identifica o bloco da marca no topo do módulo",
+     "facePrincipal": "frente",
+     "faceCm": [
+      100,
+      30
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/testeira-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/testeira-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "clipstrip",
+     "tipo": "clip_strip",
+     "nome": "Clip strip Tortuguita",
+     "larguraCm": 12,
+     "alturaCm": 80,
+     "profundidadeCm": 1,
+     "material": "pet",
+     "quantidade": 1500,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Exposição pendurada para compra por impulso em cross merchandising",
+     "facePrincipal": "topo",
+     "faceCm": [
+      12,
+      18
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/clipstrip-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/clipstrip-topo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "leve",
+     "id": "adesivo-chao",
+     "tipo": "adesivo_chao",
+     "nome": "Adesivo de chão Tortuguita",
+     "larguraCm": 60,
+     "alturaCm": 60,
+     "profundidadeCm": 0.05,
+     "material": "vinil",
+     "quantidade": 600,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Conduz o shopper até a gôndola da marca",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      60
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/adesivo-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/adesivo-chao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-chao",
+     "tipo": "display_chao",
+     "nome": "Display de chão Tortuguita",
+     "larguraCm": 60,
+     "alturaCm": 160,
+     "profundidadeCm": 40,
+     "material": "papelao_e",
+     "quantidade": 300,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Ponto extra com produto e header da campanha",
+     "facePrincipal": "header",
+     "faceCm": [
+      60,
+      32.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/display-chao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/display-chao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "display-balcao",
+     "tipo": "display_balcao",
+     "nome": "Display de balcão Tortuguita",
+     "larguraCm": 40,
+     "alturaCm": 35,
+     "profundidadeCm": 28,
+     "material": "papelao_e",
+     "quantidade": 1500,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Impulso no checkout, perto do caixa",
+     "facePrincipal": "header",
+     "faceCm": [
+      40,
+      14.7
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/display-balcao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/display-balcao-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "totem",
+     "tipo": "totem",
+     "nome": "Totem Tortuguita",
+     "larguraCm": 60,
+     "alturaCm": 180,
+     "profundidadeCm": 35,
+     "material": "mdf",
+     "quantidade": 120,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Sinaliza a campanha na entrada e no corredor",
+     "facePrincipal": "frente",
+     "faceCm": [
+      60,
+      180
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/totem-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/totem-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "ponta-gondola",
+     "tipo": "ponta_gondola",
+     "nome": "Ponta de gôndola Tortuguita",
+     "larguraCm": 100,
+     "alturaCm": 200,
+     "profundidadeCm": 50,
+     "material": "mdf",
+     "quantidade": 60,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Ponta de gôndola temática com produto e header",
+     "facePrincipal": "header",
+     "faceCm": [
+      100,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/ponta-gondola-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/ponta-gondola-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "media",
+     "id": "portal",
+     "tipo": "portal_corredor",
+     "nome": "Portal de corredor Tortuguita",
+     "larguraCm": 240,
+     "alturaCm": 260,
+     "profundidadeCm": 45,
+     "material": "metalon_lona",
+     "quantidade": 20,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Arco sobre o corredor da categoria de doces",
+     "facePrincipal": "viga",
+     "faceCm": [
+      240,
+      50
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/portal-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/portal-viga.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "ilha",
+     "tipo": "ilha",
+     "nome": "Ilha promocional Tortuguita",
+     "larguraCm": 200,
+     "alturaCm": 140,
+     "profundidadeCm": 120,
+     "material": "mdf",
+     "quantidade": 15,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Ilha de pallet no corredor principal com volume de produto",
+     "facePrincipal": "header",
+     "faceCm": [
+      160.0,
+      40
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/ilha-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/ilha-header.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "store-in-store",
+     "tipo": "gondola_marca",
+     "nome": "Store in store Tortuguita",
+     "larguraCm": 300,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Espaço próprio da marca dentro da loja",
+     "facePrincipal": "fundo",
+     "faceCm": [
+      300,
+      140.0
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/store-in-store-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/store-in-store-fundo.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "degustacao",
+     "tipo": "sampling_station",
+     "nome": "Ambientação de degustação Tortuguita",
+     "larguraCm": 120,
+     "alturaCm": 200,
+     "profundidadeCm": 60,
+     "material": "mdf",
+     "quantidade": 10,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Balcão de degustação com promotora e header",
+     "facePrincipal": "frente",
+     "faceCm": [
+      120,
+      92
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/degustacao-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/degustacao-frente.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    },
+    {
+     "categoria": "pesada",
+     "id": "fachada",
+     "tipo": "fachada_loja",
+     "nome": "Fachada de loja Tortuguita",
+     "larguraCm": 400,
+     "alturaCm": 320,
+     "profundidadeCm": 40,
+     "material": "acm_lona",
+     "quantidade": 4,
+     "titulo": "Cremosa, recheada e agora com mais leite!",
+     "funcao": "Fachada temática de loja ou quiosque da marca",
+     "facePrincipal": "parede",
+     "faceCm": [
+      400,
+      260
+     ],
+     "arteChatgpt": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/chatgpt/tortuguita/fachada-arte.png",
+     "arteFace": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/fachada-parede.png",
+     "produtos": [
+      "emb"
+     ],
+     "artes": {}
+    }
+   ]
+  }
+ },
+ "categorias": {
+  "leve": "Peças leves",
+  "media": "Peças médias",
+  "pesada": "Peças pesadas"
+ }
+}
