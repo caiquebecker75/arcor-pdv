@@ -33,6 +33,38 @@ def plano(A):
     return f, 'corte', 1.0
 
 
+SSH = ['ssh', '-i', os.path.expanduser('~/.ssh/agencia_motor'), '-o', 'ServerAliveInterval=30', 'motor@187.77.253.75']
+RAW = 'https://raw.githubusercontent.com/caiquebecker75/arcor-pdv/main/kv/'
+
+
+def rodar_servidor(prompt, ref, destino, proporcao):
+    """ChatGPT da agência (chatgpt.com pela estação, Codex do servidor de reserva). Referência por link público."""
+    os.makedirs(os.path.dirname(destino), exist_ok=True)
+    t0 = time.time()
+    nome = os.path.basename(os.path.dirname(destino)) + '-' + os.path.basename(destino) + '.json'
+    corpo = json.dumps({'prompt': prompt, 'proporcao': proporcao, 'referencias': [RAW + os.path.basename(ref)] if ref else []}, ensure_ascii=False)
+    subprocess.run(SSH + [f'cat > tmp/arcor/pedidos/{nome}'], input=corpo, text=True, timeout=60)
+    try:
+        r = subprocess.run(SSH + [f'cd agencia/motor && npx tsx zz_arcor_img.ts ~/tmp/arcor/pedidos/{nome} 2>&1 | grep -E "^(URL|ERRO)" | tail -1'],
+                           capture_output=True, text=True, timeout=1500)
+        saida = r.stdout.strip()
+    except subprocess.TimeoutExpired:
+        saida = 'ERRO timeout'
+    if saida.startswith('URL '):
+        url = saida.split()[1]
+        subprocess.run(['curl', '-sL', '-o', destino + '.tmp', url], timeout=300)
+        try:
+            Image.open(destino + '.tmp').convert('RGB').save(destino)
+        except Exception as e:
+            saida = f'ERRO download {e}'
+        if os.path.exists(destino + '.tmp'): os.remove(destino + '.tmp')
+    if 'limite' in saida.lower() or 'limit' in saida.lower():
+        LIMITE['bateu'] = True
+    ok = os.path.exists(destino)
+    log('ok' if ok else 'FALHOU', os.path.basename(os.path.dirname(destino)), os.path.basename(destino), f'{time.time() - t0:.0f}s', '' if ok else saida[-240:])
+    return ok
+
+
 def rodar_codex(prompt, ref, destino):
     os.makedirs(os.path.dirname(destino), exist_ok=True)
     t0 = time.time()
@@ -113,13 +145,18 @@ def prompt_peca(m, p):
                 'direita para emendar lado a lado; fora da faixa só fundo liso. ')
     else:
         comp = 'Composição: a arte ocupa a imagem inteira, com margem de segurança de 5% nas bordas para textos e logo. '
+    if p['tipo'] == 'fachada_loja':
+        comp += ('IMPORTANTE: é a parede da fachada e no CENTRO fica uma porta de vidro com 30% da largura e 80% da altura, apoiada no chão: '
+                 'deixe essa área central só com fundo, e distribua logo e frase à esquerda e embalagem à direita da porta. ')
+    if p['tipo'] in ('display_chao', 'display_balcao', 'ponta_gondola', 'ilha', 'portal_corredor'):
+        comp += 'É o HEADER (testeira) da peça: logo e frase grandes, legíveis a 3 metros. '
     return (BASE.format(marca=m['nome'], visual=m['visual']) +
             f"Crie a ARTE PLANA DE IMPRESSÃO da face principal de um(a) {p['nome']} para ponto de venda de supermercado "
             f"(face de {fw:.0f} x {fh:.0f} cm; função: {p['funcao'].lower()}). Arte chapada de ponta a ponta em vista frontal ortográfica: "
             'SEM mockup, SEM perspectiva, SEM peça em 3D, SEM loja, SEM sombra externa, SEM moldura e SEM marcas de corte. '
             'A embalagem aparece como no KV, sem redesenhar o rótulo. ' + comp +
             REGRA_TEXTO.format(textos=' | '.join(m['textos'])) +
-            f"Formato {FMT[f][1]}. Gere a imagem e salve o arquivo final como {p['arteChatgpt']}")
+            f"Formato {FMT[f][1]}.")
 
 
 def prompt_packshot(m, destino):
@@ -127,14 +164,14 @@ def prompt_packshot(m, destino):
             f"Gere o PACKSHOT de estúdio da embalagem {m['produto']} exatamente como aparece no KV: uma única embalagem, totalmente frontal e reta "
             '(sem inclinação, sem perspectiva), inteira e centralizada, sobre fundo BRANCO PURO liso, sem sombra, sem reflexo, sem outros objetos. '
             'Não redesenhe o rótulo: copie logo, cores e textos da embalagem do KV; onde um texto não puder sair perfeito, deixe a área lisa. '
-            f'Formato retrato 2:3 (1024x1536). Salve o arquivo final como {destino}')
+            'Formato retrato 2:3 (1024x1536).')
 
 
 def prompt_logo(m, destino):
     return (BASE.format(marca=m['nome'], visual=m['visual']) +
             f"Recorte e reproduza SOMENTE o logotipo {m['nome']} exatamente como está no KV (mesmo desenho de letras, cores, contorno e efeitos), "
             'plano e de frente, centralizado, sobre fundo BRANCO PURO liso, sem nenhum outro elemento, sem sombra projetada. '
-            f'Formato paisagem 3:2 (1536x1024). Salve o arquivo final como {destino}')
+            'Formato paisagem 3:2 (1536x1024).')
 
 
 def marca(mid):
@@ -142,17 +179,18 @@ def marca(mid):
     ref = os.path.join(RAIZ, 'kv', f'{mid}-ref.jpg')
     pasta = os.path.join(RAIZ, 'chatgpt', mid)
     tarefas = []
-    for nome, fn in (('packshot.png', prompt_packshot), ('logo.png', prompt_logo)):
+    for nome, fn, prop in (('packshot.png', prompt_packshot, 'retrato'), ('logo.png', prompt_logo, 'paisagem')):
         d = os.path.join(pasta, nome)
-        if not os.path.exists(d): tarefas.append((fn(m, d), d, True))
+        if not os.path.exists(d): tarefas.append((fn(m, d), d, True, prop))
     for p in m['pecas']:
-        if not os.path.exists(p['arteChatgpt']): tarefas.append((prompt_peca(m, p), p['arteChatgpt'], False))
+        fw, fh = p['faceCm']
+        if not os.path.exists(p['arteChatgpt']): tarefas.append((prompt_peca(m, p), p['arteChatgpt'], False, plano(fw / fh)[0]))
 
     def uma(t):
-        pr, d, recorta = t
+        pr, d, recorta, prop = t
         for tentativa in range(2):
             if LIMITE['bateu']: return False
-            if rodar_codex(pr, ref, d):
+            if rodar_servidor(pr, ref, d, prop):
                 if recorta: sem_fundo_branco(d)
                 return True
         return False

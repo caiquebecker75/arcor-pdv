@@ -1,0 +1,223 @@
+{
+ "paineis": [
+  {
+   "nome": "Corpo (frente baixa, laterais, costas)",
+   "w": 2030,
+   "h": 1280,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [
+    [
+     30,
+     0,
+     30,
+     1280.0
+    ],
+    [
+     430,
+     0,
+     430,
+     1280.0
+    ],
+    [
+     1030,
+     0,
+     1030,
+     1280.0
+    ],
+    [
+     1430,
+     0,
+     1430,
+     1280.0
+    ]
+   ],
+   "furos": [],
+   "rasgos": [
+    [
+     470,
+     1250.0,
+     60,
+     8
+    ],
+    [
+     930,
+     1250.0,
+     60,
+     8
+    ]
+   ],
+   "contorno": null,
+   "obs": "aba de 30 mm fecha por espiga e fenda, sem cola"
+  },
+  {
+   "nome": "Header com 2 espigas",
+   "w": 600,
+   "h": 360,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "espigas 60 x 40 encaixam nas fendas do topo das costas"
+  },
+  {
+   "nome": "Base / rodapé com fundo duplo",
+   "w": 1640,
+   "h": 640,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [
+    [
+     120,
+     120,
+     1520,
+     120
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Bandeja 1",
+   "w": 686,
+   "h": 500,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [
+    [
+     50,
+     0,
+     50,
+     500
+    ],
+    [
+     636,
+     0,
+     636,
+     500
+    ],
+    [
+     0,
+     60,
+     686,
+     60
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "abas laterais de 50 mm travam por espiga nas fendas da lateral; lábio frontal 60 mm"
+  },
+  {
+   "nome": "Bandeja 2",
+   "w": 686,
+   "h": 500,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [
+    [
+     50,
+     0,
+     50,
+     500
+    ],
+    [
+     636,
+     0,
+     636,
+     500
+    ],
+    [
+     0,
+     60,
+     686,
+     60
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "abas laterais de 50 mm travam por espiga nas fendas da lateral; lábio frontal 60 mm"
+  },
+  {
+   "nome": "Bandeja 3",
+   "w": 686,
+   "h": 500,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [
+    [
+     50,
+     0,
+     50,
+     500
+    ],
+    [
+     636,
+     0,
+     636,
+     500
+    ],
+    [
+     0,
+     60,
+     686,
+     60
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "abas laterais de 50 mm travam por espiga nas fendas da lateral; lábio frontal 60 mm"
+  },
+  {
+   "nome": "Bandeja 4",
+   "w": 686,
+   "h": 500,
+   "mat": "bc",
+   "qtd": 1,
+   "vincos": [
+    [
+     50,
+     0,
+     50,
+     500
+    ],
+    [
+     636,
+     0,
+     636,
+     500
+    ],
+    [
+     0,
+     60,
+     686,
+     60
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "abas laterais de 50 mm travam por espiga nas fendas da lateral; lábio frontal 60 mm"
+  }
+ ],
+ "montagem": [
+  "Armar a base (fundo duplo) dobrando as abas e travando pelas espigas.",
+  "Dobrar o corpo nos 4 vincos e fechar a aba de 30 mm pela espiga.",
+  "Encaixar o corpo na base.",
+  "Montar as 4 bandejas e encaixar de baixo para cima nas fendas das laterais.",
+  "Encaixar o header pelas 2 espigas no topo das costas.",
+  "Abastecer de baixo para cima."
+ ],
+ "aproveitamento": {
+  "bc": [
+   2,
+   69.65677083333334
+  ]
+ }
+}

@@ -46,7 +46,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/regua-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -70,7 +72,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/wobbler-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -94,7 +98,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/stopper-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -118,7 +124,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/testeira-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -142,7 +150,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "topo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/clipstrip-topo.png"
+     }
     },
     {
      "categoria": "leve",
@@ -166,7 +176,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/adesivo-chao-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -190,7 +202,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/display-chao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -214,7 +228,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/display-balcao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -238,7 +254,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/totem-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -262,7 +280,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/ponta-gondola-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -286,7 +306,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "viga": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/portal-viga.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -310,7 +332,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/ilha-header.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -334,7 +358,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "fundo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/store-in-store-fundo.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -358,7 +384,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/degustacao-frente.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -382,7 +410,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "parede": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/7belo/entrada/fachada-parede.png"
+     }
     }
    ]
   },

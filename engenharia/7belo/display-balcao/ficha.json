@@ -1,0 +1,72 @@
+{
+ "paineis": [
+  {
+   "nome": "Corpo (base, costas, laterais, frente baixa)",
+   "w": 960,
+   "h": 690,
+   "mat": "e",
+   "qtd": 1,
+   "vincos": [
+    [
+     280,
+     0,
+     280,
+     630
+    ],
+    [
+     680,
+     0,
+     680,
+     630
+    ],
+    [
+     0,
+     280,
+     960,
+     280
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "laterais travam por linguetas nas costas"
+  },
+  {
+   "nome": "Header",
+   "w": 400,
+   "h": 177,
+   "mat": "e",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "lingueta de 30 mm entra na fenda das costas"
+  },
+  {
+   "nome": "Divisórias de canal",
+   "w": 270,
+   "h": 60,
+   "mat": "e",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "encaixe meia-altura no fundo"
+  }
+ ],
+ "montagem": [
+  "Dobrar a base e levantar costas e laterais.",
+  "Travar as laterais pelas linguetas.",
+  "Encaixar as 2 divisórias.",
+  "Encaixar o header na fenda das costas.",
+  "Abastecer com 3 colunas de embalagens."
+ ],
+ "aproveitamento": {
+  "e": [
+   2,
+   56.776428571428575
+  ]
+ }
+}

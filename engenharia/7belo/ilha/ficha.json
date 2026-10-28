@@ -1,0 +1,97 @@
+{
+ "paineis": [
+  {
+   "nome": "Saia frontal/traseira",
+   "w": 2000,
+   "h": 450,
+   "mat": "mdf15",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Saia lateral",
+   "w": 1200,
+   "h": 450,
+   "mat": "mdf15",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Tampo com bandejas",
+   "w": 2000,
+   "h": 1200,
+   "mat": "mdf18",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "sobre 2 pallets PBR 1200 x 1000"
+  },
+  {
+   "nome": "Header aéreo",
+   "w": 1600,
+   "h": 400,
+   "mat": "ps2",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "frente e verso, no mastro central"
+  },
+  {
+   "nome": "Mastro central metalon",
+   "w": 30,
+   "h": 1500,
+   "mat": "metalon",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "encaixa em luva no tampo"
+  },
+  {
+   "nome": "Lábio de prateleira",
+   "w": 2000,
+   "h": 60,
+   "mat": "ps2",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  }
+ ],
+ "montagem": [
+  "Posicionar os 2 pallets lado a lado.",
+  "Fixar as saias nos pallets por cantoneiras de encaixe.",
+  "Apoiar o tampo e encaixar o mastro na luva.",
+  "Encaixar os headers frente e verso no mastro.",
+  "Abastecer em degraus."
+ ],
+ "aproveitamento": {
+  "ps2": [
+   7,
+   11.44
+  ],
+  "mdf18": [
+   1,
+   47.8054054054054
+  ],
+  "mdf15": [
+   1,
+   58.22899262899263
+  ]
+ }
+}

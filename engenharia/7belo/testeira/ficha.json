@@ -1,0 +1,63 @@
+{
+ "paineis": [
+  {
+   "nome": "Testeira com abas de gancho",
+   "w": 1000,
+   "h": 340,
+   "mat": "pvc3",
+   "qtd": 1,
+   "vincos": [
+    [
+     0,
+     40,
+     1000,
+     40
+    ]
+   ],
+   "furos": [],
+   "rasgos": [
+    [
+     80,
+     10,
+     60,
+     5
+    ],
+    [
+     860,
+     10,
+     60,
+     5
+    ]
+   ],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Gancho de testeira (par)",
+   "w": 60,
+   "h": 90,
+   "mat": "ps2",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "encaixa nos rasgos da aba e no topo do montante da gôndola"
+  }
+ ],
+ "montagem": [
+  "Dobrar a aba superior a 90°.",
+  "Encaixar os 2 ganchos de PS nos rasgos da aba.",
+  "Apoiar os ganchos no topo da gôndola; a testeira fica faceando a prateleira de cima."
+ ],
+ "aproveitamento": {
+  "ps2": [
+   1,
+   0.7
+  ],
+  "pvc3": [
+   1,
+   17.675
+  ]
+ }
+}

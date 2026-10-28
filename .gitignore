@@ -1,7 +1,6 @@
-lotes/*/saida/*/quadros/
-lotes/*/saida/*/*.blend
-lotes/*/saida/*/*.blend1
-lotes/*/texturas/
+lotes/
+chatgpt/
+drive/
 logs/
 __pycache__/
 kv/*.jpg
