@@ -1,0 +1,41 @@
+{
+ "paineis": [
+  {
+   "nome": "Stopper com aba de fixação",
+   "w": 200,
+   "h": 360,
+   "mat": "pvc3",
+   "qtd": 1,
+   "vincos": [
+    [
+     0,
+     60,
+     200,
+     60
+    ]
+   ],
+   "furos": [],
+   "rasgos": [
+    [
+     80.0,
+     28.0,
+     40,
+     4
+    ]
+   ],
+   "contorno": null,
+   "obs": "rasgo 40 x 4 para a presilha de trilho"
+  }
+ ],
+ "montagem": [
+  "Dobrar a aba a 90° no vinco.",
+  "Passar a presilha de trilho pelo rasgo e prender no trilho da prateleira.",
+  "O stopper fica perpendicular à gôndola, na altura dos olhos."
+ ],
+ "aproveitamento": {
+  "pvc3": [
+   1,
+   3.885
+  ]
+ }
+}

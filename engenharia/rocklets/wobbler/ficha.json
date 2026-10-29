@@ -1,0 +1,60 @@
+{
+ "paineis": [
+  {
+   "nome": "Disco do wobbler",
+   "w": 150,
+   "h": 150,
+   "mat": "pvc05",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [
+    [
+     75.0,
+     12,
+     2.5
+    ]
+   ],
+   "rasgos": [],
+   "contorno": "circulo",
+   "obs": ""
+  },
+  {
+   "nome": "Haste flexível PET",
+   "w": 20,
+   "h": 160,
+   "mat": "pet08",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [
+    [
+     10,
+     150,
+     2.5
+    ],
+    [
+     10,
+     10,
+     2.5
+    ]
+   ],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "a ponta inferior encaixa no trilho; rebite plástico Ø5 une disco e haste"
+  }
+ ],
+ "montagem": [
+  "Unir o disco à haste com rebite plástico Ø5 pelos furos.",
+  "Encaixar a ponta inferior da haste no trilho porta-preço (sem adesivo).",
+  "Conferir que o disco balança livre na frente do produto."
+ ],
+ "aproveitamento": {
+  "pvc05": [
+   1,
+   3.657142857142857
+  ],
+  "pet08": [
+   1,
+   0.7285714285714285
+  ]
+ }
+}
