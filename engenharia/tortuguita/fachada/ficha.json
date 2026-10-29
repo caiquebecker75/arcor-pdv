@@ -1,0 +1,81 @@
+{
+ "paineis": [
+  {
+   "nome": "Estrutura da parede (quadro metalon)",
+   "w": 4000,
+   "h": 2600,
+   "mat": "metalon",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "montantes a cada 600 mm, fixados na parede existente com bucha 10"
+  },
+  {
+   "nome": "Revestimento da parede",
+   "w": 4000,
+   "h": 2600,
+   "mat": "acm3",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "placas de 1500 mm, junta seca 10 mm, adesivo impresso laminado"
+  },
+  {
+   "nome": "Caixa do letreiro",
+   "w": 4000,
+   "h": 600,
+   "mat": "acm3",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "caixa de ACM com 250 mm de profundidade"
+  },
+  {
+   "nome": "Face luminosa do letreiro",
+   "w": 3960,
+   "h": 560,
+   "mat": "acril3",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "LED módulo 12 V, fonte selada IP67"
+  },
+  {
+   "nome": "Porta de vidro temperado 8 mm",
+   "w": 1120,
+   "h": 2236,
+   "mat": "acril3",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "fornecimento da obra; aqui só a adesivagem jateada"
+  }
+ ],
+ "montagem": [
+  "Fixar o quadro de metalon na parede existente (nível e prumo).",
+  "Aplicar as placas de ACM adesivadas, da esquerda para a direita.",
+  "Instalar a caixa do letreiro e ligar a fonte (eletricista).",
+  "Adesivar a porta de vidro.",
+  "Aprovar com a marca antes de energizar o letreiro."
+ ],
+ "aproveitamento": {
+  "acril3": [
+   7,
+   34.292
+  ],
+  "acm3": [
+   3,
+   57.38755555555556
+  ]
+ }
+}

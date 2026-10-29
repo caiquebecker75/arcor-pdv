@@ -1,0 +1,71 @@
+{
+ "paineis": [
+  {
+   "nome": "Coluna em metalon (quadro)",
+   "w": 450,
+   "h": 2100,
+   "mat": "metalon",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "quadro 450 x (H-500) com travessas a cada 600 mm; base com chapa 400 x 400 x 6 mm"
+  },
+  {
+   "nome": "Viga em metalon (quadro)",
+   "w": 2400,
+   "h": 500,
+   "mat": "metalon",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "encaixe macho/fêmea nas colunas com pino trava"
+  },
+  {
+   "nome": "Lona da coluna (frente e verso)",
+   "w": 510,
+   "h": 2160,
+   "mat": "lona",
+   "qtd": 4,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "bainha de 30 mm com elástico tensionado"
+  },
+  {
+   "nome": "Lona da viga (frente e verso)",
+   "w": 2460,
+   "h": 560,
+   "mat": "lona",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Fita de LED 24 V sob a viga",
+   "w": 1500,
+   "h": 10,
+   "mat": "metalon",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "componente comprado, fonte 24 V 60 W"
+  }
+ ],
+ "montagem": [
+  "Montar os quadros das colunas e chumbar ou lastrear as chapas de base (20 kg por coluna).",
+  "Encaixar a viga nas colunas e travar os pinos.",
+  "Vestir as lonas e tensionar os elásticos.",
+  "Ligar a fita de LED na fonte 24 V (instalação por eletricista da loja)."
+ ],
+ "aproveitamento": {}
+}

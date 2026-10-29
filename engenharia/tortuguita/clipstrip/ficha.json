@@ -1,0 +1,108 @@
+{
+ "paineis": [
+  {
+   "nome": "Fita clip strip",
+   "w": 60,
+   "h": 800,
+   "mat": "pet08",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [
+    [
+     30,
+     40,
+     4
+    ],
+    [
+     30,
+     130,
+     4
+    ],
+    [
+     30,
+     220,
+     4
+    ],
+    [
+     30,
+     310,
+     4
+    ],
+    [
+     30,
+     400,
+     4
+    ],
+    [
+     30,
+     490,
+     4
+    ],
+    [
+     30,
+     580,
+     4
+    ],
+    [
+     30,
+     670,
+     4
+    ],
+    [
+     30,
+     780,
+     5
+    ]
+   ],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "8 posições de gancho, passo 90 mm"
+  },
+  {
+   "nome": "Topo com rasgo para a fita",
+   "w": 120,
+   "h": 180,
+   "mat": "ps2",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [
+    [
+     29.0,
+     15,
+     62,
+     1.5
+    ]
+   ],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Gancho S de aço galvanizado",
+   "w": 0,
+   "h": 0,
+   "mat": "metalon",
+   "qtd": 8,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "componente comprado, fio 2 mm"
+  }
+ ],
+ "montagem": [
+  "Passar a fita pelo rasgo do topo e travar dobrando 15 mm.",
+  "Pendurar no gancho S pelo furo superior, na gondola de cross merchandising.",
+  "Pendurar as embalagens nos 8 ganchos."
+ ],
+ "aproveitamento": {
+  "pet08": [
+   1,
+   8.1
+  ],
+  "ps2": [
+   1,
+   1.235
+  ]
+ }
+}
