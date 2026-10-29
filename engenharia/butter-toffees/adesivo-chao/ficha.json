@@ -1,0 +1,22 @@
+{
+ "paineis": [
+  {
+   "nome": "Adesivo de chão",
+   "w": 600,
+   "h": 600,
+   "mat": "vinil",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": "raio20",
+   "obs": "cantos raio 20 mm; laminação antiderrapante R10 obrigatória"
+  }
+ ],
+ "montagem": [
+  "Limpar e secar o piso.",
+  "Retirar o liner por partes e aplicar com espátula do centro para fora.",
+  "Não aplicar sobre rejunte aberto ou piso molhado."
+ ],
+ "aproveitamento": {}
+}

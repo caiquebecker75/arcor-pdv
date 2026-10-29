@@ -1,0 +1,65 @@
+{
+ "paineis": [
+  {
+   "nome": "Painel do totem",
+   "w": 600,
+   "h": 1800,
+   "mat": "mdf15",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [
+    [
+     292.0,
+     0,
+     16,
+     150
+    ]
+   ],
+   "contorno": null,
+   "obs": "rasgo 16 x 150 mm na base para o pé em cruz"
+  },
+  {
+   "nome": "Pé em cruz (meia-madeira)",
+   "w": 400,
+   "h": 300,
+   "mat": "mdf15",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [
+    [
+     192,
+     150,
+     16,
+     150
+    ]
+   ],
+   "contorno": null,
+   "obs": "duas peças iguais, encaixe a meia altura"
+  },
+  {
+   "nome": "Sapatas de feltro",
+   "w": 0,
+   "h": 0,
+   "mat": "mdf15",
+   "qtd": 4,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "componente comprado"
+  }
+ ],
+ "montagem": [
+  "Cruzar as duas peças do pé pelo encaixe meia-madeira.",
+  "Descer o painel pelo rasgo da base até apoiar no pé.",
+  "Colar as 4 sapatas de feltro."
+ ],
+ "aproveitamento": {
+  "mdf15": [
+   1,
+   26.6987714987715
+  ]
+ }
+}

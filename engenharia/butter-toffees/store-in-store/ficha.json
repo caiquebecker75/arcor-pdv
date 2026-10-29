@@ -1,0 +1,97 @@
+{
+ "paineis": [
+  {
+   "nome": "Fundo / backwall",
+   "w": 3000,
+   "h": 1400,
+   "mat": "mdf15",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "3 módulos de 1000 mm unidos por cavilha"
+  },
+  {
+   "nome": "Lateral",
+   "w": 600,
+   "h": 2000,
+   "mat": "mdf18",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Prateleira",
+   "w": 982,
+   "h": 580,
+   "mat": "mdf18",
+   "qtd": 12,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "4 por módulo, apoiadas em suportes de encaixe"
+  },
+  {
+   "nome": "Header",
+   "w": 3000,
+   "h": 400,
+   "mat": "mdf15",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Base / rodapé",
+   "w": 3000,
+   "h": 150,
+   "mat": "mdf18",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Lábio de preço",
+   "w": 1000,
+   "h": 40,
+   "mat": "ps2",
+   "qtd": 12,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  }
+ ],
+ "montagem": [
+  "Montar as laterais e a base por cavilhas e minifix.",
+  "Encaixar os 3 fundos e travar.",
+  "Instalar os suportes e as prateleiras.",
+  "Fixar o header no topo.",
+  "Encaixar os lábios de preço."
+ ],
+ "aproveitamento": {
+  "mdf18": [
+   5,
+   39.14362653562654
+  ],
+  "mdf15": [
+   4,
+   26.91990171990172
+  ],
+  "ps2": [
+   1,
+   30.3
+  ]
+ }
+}

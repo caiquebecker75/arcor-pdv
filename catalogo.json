@@ -464,7 +464,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/regua-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -488,7 +490,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/wobbler-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -512,7 +516,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/stopper-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -536,7 +542,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/testeira-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -560,7 +568,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "topo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/clipstrip-topo.png"
+     }
     },
     {
      "categoria": "leve",
@@ -584,7 +594,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/adesivo-chao-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -608,7 +620,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/display-chao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -632,7 +646,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/display-balcao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -656,7 +672,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/totem-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -680,7 +698,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/ponta-gondola-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -704,7 +724,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "viga": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/portal-viga.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -728,7 +750,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/ilha-header.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -752,7 +776,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "fundo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/store-in-store-fundo.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -776,7 +802,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/degustacao-frente.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -800,7 +828,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "parede": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/butter-toffees/entrada/fachada-parede.png"
+     }
     }
    ]
   },
@@ -849,7 +879,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/regua-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -873,7 +905,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/wobbler-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -897,7 +931,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/stopper-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -921,7 +957,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/testeira-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -945,7 +983,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "topo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/clipstrip-topo.png"
+     }
     },
     {
      "categoria": "leve",
@@ -969,7 +1009,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/adesivo-chao-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -993,7 +1035,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/display-chao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -1017,7 +1061,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/display-balcao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -1041,7 +1087,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/totem-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -1065,7 +1113,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/ponta-gondola-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -1089,7 +1139,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "viga": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/portal-viga.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1113,7 +1165,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/ilha-header.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1137,7 +1191,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "fundo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/store-in-store-fundo.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1161,7 +1217,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/degustacao-frente.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1185,7 +1243,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "parede": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/rocklets/entrada/fachada-parede.png"
+     }
     }
    ]
   },
@@ -1233,7 +1293,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/regua-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -1257,7 +1319,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/wobbler-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -1281,7 +1345,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/stopper-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -1305,7 +1371,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/testeira-frente.png"
+     }
     },
     {
      "categoria": "leve",
@@ -1329,7 +1397,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "topo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/clipstrip-topo.png"
+     }
     },
     {
      "categoria": "leve",
@@ -1353,7 +1423,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/adesivo-chao-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -1377,7 +1449,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/display-chao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -1401,7 +1475,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/display-balcao-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -1425,7 +1501,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/totem-frente.png"
+     }
     },
     {
      "categoria": "media",
@@ -1449,7 +1527,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/ponta-gondola-header.png"
+     }
     },
     {
      "categoria": "media",
@@ -1473,7 +1553,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "viga": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/portal-viga.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1497,7 +1579,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "header": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/ilha-header.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1521,7 +1605,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "fundo": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/store-in-store-fundo.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1545,7 +1631,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "frente": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/degustacao-frente.png"
+     }
     },
     {
      "categoria": "pesada",
@@ -1569,7 +1657,9 @@
      "produtos": [
       "emb"
      ],
-     "artes": {}
+     "artes": {
+      "parede": "/Volumes/hd caique becker/Mac Caique/Projetos/arcor-pdv/lotes/tortuguita/entrada/fachada-parede.png"
+     }
     }
    ]
   }

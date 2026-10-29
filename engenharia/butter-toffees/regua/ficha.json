@@ -1,0 +1,34 @@
+{
+ "paineis": [
+  {
+   "nome": "Régua com aba de encaixe no trilho porta-preço",
+   "w": 1000,
+   "h": 68,
+   "mat": "pvc3",
+   "qtd": 1,
+   "vincos": [
+    [
+     0,
+     18,
+     1000,
+     18
+    ]
+   ],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "vinco a 90° na aba; a aba entra no trilho da prateleira"
+  }
+ ],
+ "montagem": [
+  "Dobrar a aba superior a 90° no vinco.",
+  "Encaixar a aba no trilho porta-preço da prateleira, sem cobrir a etiqueta de preço.",
+  "Centralizar no bloco da marca."
+ ],
+ "aproveitamento": {
+  "pvc3": [
+   1,
+   3.939
+  ]
+ }
+}

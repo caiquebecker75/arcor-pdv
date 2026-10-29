@@ -1,0 +1,96 @@
+{
+ "paineis": [
+  {
+   "nome": "Header da ponta",
+   "w": 1000,
+   "h": 500,
+   "mat": "mdf15",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [
+    [
+     60,
+     250.0,
+     4
+    ],
+    [
+     940,
+     250.0,
+     4
+    ]
+   ],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Painel lateral (par)",
+   "w": 500,
+   "h": 1640,
+   "mat": "ps2",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "encaixe por presilhas no montante da gôndola"
+  },
+  {
+   "nome": "Faixa de base / rodapé",
+   "w": 1000,
+   "h": 300,
+   "mat": "ps2",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Stopper de ponta",
+   "w": 120,
+   "h": 300,
+   "mat": "pvc3",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Suporte de header em aço",
+   "w": 40,
+   "h": 800,
+   "mat": "metalon",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "encaixa no furo do montante da gôndola"
+  }
+ ],
+ "montagem": [
+  "Encaixar os 2 suportes nos furos do montante da gôndola.",
+  "Fixar o header nos suportes (2 parafusos por lado).",
+  "Encaixar os painéis laterais pelas presilhas.",
+  "Encaixar a faixa de base no rodapé da gôndola.",
+  "Colocar os stoppers nas prateleiras de ponta."
+ ],
+ "aproveitamento": {
+  "pvc3": [
+   1,
+   4.03
+  ],
+  "mdf15": [
+   1,
+   10.124815724815726
+  ],
+  "ps2": [
+   2,
+   49.9025
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "paineis": [
+  {
+   "nome": "Frente do balcão",
+   "w": 1200,
+   "h": 920,
+   "mat": "mdf15",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Lateral do balcão",
+   "w": 600,
+   "h": 920,
+   "mat": "mdf15",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Tampo",
+   "w": 1240,
+   "h": 640,
+   "mat": "mdf18",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": "borda em fita PVC 2 mm"
+  },
+  {
+   "nome": "Prateleira interna",
+   "w": 1170,
+   "h": 570,
+   "mat": "mdf15",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Header",
+   "w": 840,
+   "h": 300,
+   "mat": "ps2",
+   "qtd": 1,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  },
+  {
+   "nome": "Mastro do header",
+   "w": 30,
+   "h": 1050,
+   "mat": "metalon",
+   "qtd": 2,
+   "vincos": [],
+   "furos": [],
+   "rasgos": [],
+   "contorno": null,
+   "obs": ""
+  }
+ ],
+ "montagem": [
+  "Montar frente e laterais por minifix.",
+  "Fixar a prateleira interna e o tampo.",
+  "Encaixar os mastros nas luvas do tampo e o header neles.",
+  "Higienizar o tampo antes da degustação."
+ ],
+ "aproveitamento": {
+  "mdf18": [
+   1,
+   15.97051597051597
+  ],
+  "mdf15": [
+   1,
+   57.87321867321867
+  ],
+  "ps2": [
+   1,
+   13.175
+  ]
+ }
+}
