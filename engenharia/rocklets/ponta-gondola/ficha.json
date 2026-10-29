@@ -80,17 +80,17 @@
   "Colocar os stoppers nas prateleiras de ponta."
  ],
  "aproveitamento": {
-  "ps2": [
-   2,
-   49.9025
+  "pvc3": [
+   1,
+   4.03
   ],
   "mdf15": [
    1,
    10.124815724815726
   ],
-  "pvc3": [
-   1,
-   4.03
+  "ps2": [
+   2,
+   49.9025
   ]
  }
 }

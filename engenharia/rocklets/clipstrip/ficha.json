@@ -96,13 +96,13 @@
   "Pendurar as embalagens nos 8 ganchos."
  ],
  "aproveitamento": {
-  "ps2": [
-   1,
-   1.235
-  ],
   "pet08": [
    1,
    8.1
+  ],
+  "ps2": [
+   1,
+   1.235
   ]
  }
 }
