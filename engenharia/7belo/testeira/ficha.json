@@ -51,13 +51,13 @@
   "Apoiar os ganchos no topo da gôndola; a testeira fica faceando a prateleira de cima."
  ],
  "aproveitamento": {
-  "ps2": [
-   1,
-   0.7
-  ],
   "pvc3": [
    1,
    17.675
+  ],
+  "ps2": [
+   1,
+   0.7
   ]
  }
 }
