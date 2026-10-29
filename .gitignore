@@ -5,3 +5,4 @@ logs/
 __pycache__/
 kv/*.jpg
 !kv/*-ref.jpg
+conceitos/*/*.png
