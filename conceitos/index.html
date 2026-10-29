@@ -2,37 +2,209 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Arcor PDV · Conceitos</title>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lexend:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root{--fundo:#f6f5f2;--tinta:#16161a;--suave:#6b6b73;--linha:#e2e0db}
-*{box-sizing:border-box}body{margin:0;background:var(--fundo);color:var(--tinta);font:16px/1.5 Lexend,system-ui,sans-serif}
-header{padding:56px 24px 24px;max-width:1280px;margin:auto}h1{font:400 clamp(40px,7vw,88px)/.95 Anton,sans-serif;margin:0 0 12px;text-transform:uppercase}
-header p{color:var(--suave);max-width:640px;margin:0}nav{position:sticky;top:0;z-index:2;background:var(--fundo);border-bottom:1px solid var(--linha);
-display:flex;gap:8px;padding:12px 24px;overflow-x:auto}nav a{color:var(--tinta);text-decoration:none;font-weight:600;padding:6px 14px;border:1px solid var(--linha);border-radius:99px;white-space:nowrap}
-nav button{margin-left:auto;font:600 14px Lexend;background:var(--tinta);color:#fff;border:0;border-radius:99px;padding:8px 16px;cursor:pointer;white-space:nowrap}
-section{max-width:1280px;margin:auto;padding:24px}h2{font:400 56px/1 Anton,sans-serif;text-transform:uppercase;border-left:10px solid var(--c);padding-left:16px;margin:40px 0 8px}
-h3{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--suave);margin:32px 0 12px}
-.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
-.card{margin:0;background:#fff;border:1px solid var(--linha);border-radius:14px;overflow:hidden;transition:outline .15s}
-.card img{width:100%;aspect-ratio:1;object-fit:cover;display:block;cursor:zoom-in;background:#ddd}
-figcaption{padding:14px 16px;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:baseline}
-figcaption b{font:400 22px Anton,sans-serif}figcaption small{grid-column:2;color:var(--suave)}
-.voto{grid-column:1/-1;display:flex;gap:8px;margin-top:10px}.voto button{flex:1;font:600 14px Lexend;padding:9px;border-radius:10px;border:1px solid var(--linha);background:#fff;cursor:pointer}
-.card.sim{outline:3px solid #1f9d55}.card.sim [data-v=sim]{background:#1f9d55;color:#fff;border-color:#1f9d55}
-.card.nao{outline:3px solid #d64545}.card.nao [data-v=nao]{background:#d64545;color:#fff;border-color:#d64545}
-#zoom{position:fixed;inset:0;background:rgba(10,10,12,.92);display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}
-#zoom img{max-width:96vw;max-height:94vh}#zoom.on{display:flex}
-#aviso{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--tinta);color:#fff;padding:10px 18px;border-radius:99px;opacity:0;transition:.2s}
-@media(max-width:600px){header,section{padding-left:16px;padding-right:16px}h2{font-size:40px}.grade{grid-template-columns:1fr}}
-</style></head><body>
-<header><h1>Arcor · conceitos de PDV</h1><p>60 conceitos criados no ChatGPT a partir dos key visuals de 7Belo, Butter Toffees, Rocklets e Tortuguita,
-em peças leves, médias e pesadas. Marque Aprovo ou Não aprovo em cada um e toque em Copiar resposta. Só o que for aprovado segue para 3D, AR e engenharia.</p></header>
-<nav><a href="#7belo">7Belo</a><a href="#butter-toffees">Butter Toffees</a><a href="#rocklets">Rocklets</a><a href="#tortuguita">Tortuguita</a><button id="copiar">Copiar resposta</button></nav><section id="7belo"><h2 style="--c:#1B2A6B">7Belo</h2></section><section id="butter-toffees"><h2 style="--c:#2A1810">Butter Toffees</h2></section><section id="rocklets"><h2 style="--c:#141414">Rocklets</h2></section><section id="tortuguita"><h2 style="--c:#1E5FD0">Tortuguita</h2></section>
-<div id="zoom"><img alt=""></div><div id="aviso">Resposta copiada</div>
+:root{--fundo:#f3f2ef;--tinta:#16161a;--suave:#6b6b73;--linha:#dcdad5}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:var(--fundo);color:var(--tinta);font:16px/1.5 Lexend,system-ui,sans-serif}
+.t{position:fixed;inset:0;display:none;padding:5vh 5vw 9vh}.t.on{display:flex}
+.capa,.marca,.fim{flex-direction:column;justify-content:center}.capa h1,.marca h1,.fim h1{font:400 clamp(56px,11vw,160px)/.9 Anton,sans-serif;text-transform:uppercase;margin:8px 0 20px}
+.capa small,.marca small{font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--suave)}.capa p{max-width:620px;color:var(--suave);font-size:18px}
+.dica{margin-top:32px;color:var(--suave);font-size:14px}.marca{border-left:24px solid var(--c)}
+.peca{gap:4vw;align-items:center}.foto{flex:1 1 auto;height:100%;display:flex;align-items:center;justify-content:center;min-width:0}
+.foto img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 20px 50px rgba(0,0,0,.12)}
+aside{flex:0 0 300px;border-top:8px solid var(--c);padding-top:20px}aside b{font:400 64px/1 Anton,sans-serif}
+aside h2{font-size:26px;line-height:1.2;margin:10px 0}aside p{color:var(--suave);margin:0 0 24px}
+.voto{display:flex;flex-direction:column;gap:10px}.voto button,#copiar{font:600 16px Lexend;padding:14px;border-radius:12px;border:1px solid var(--linha);background:#fff;cursor:pointer}
+.peca.sim [data-v=sim]{background:#1f9d55;color:#fff;border-color:#1f9d55}.peca.nao [data-v=nao]{background:#d64545;color:#fff;border-color:#d64545}
+#resumo{font:18px/1.6 Lexend;white-space:pre-wrap;max-width:900px}#copiar{background:var(--tinta);color:#fff;align-self:flex-start;padding:14px 28px}
+#barra{position:fixed;left:5vw;right:5vw;bottom:4vh;display:flex;align-items:center;gap:16px;color:var(--suave);font-size:14px;z-index:3}
+#barra i{flex:1;height:3px;background:var(--linha);border-radius:3px;overflow:hidden}#barra i b{display:block;height:100%;background:var(--tinta);transition:width .2s}
+#barra button{font:600 20px Lexend;width:44px;height:44px;border-radius:50%;border:1px solid var(--linha);background:#fff;cursor:pointer}
+@media(max-width:800px){.peca{flex-direction:column;gap:16px;padding-bottom:12vh}.foto{height:auto;flex:1}aside{flex:none;width:100%;padding-top:12px}
+aside b{font-size:36px}aside h2{font-size:20px;margin:4px 0}aside p{margin-bottom:12px}.voto{flex-direction:row}.voto button{flex:1;padding:10px}.marca{border-left-width:12px}}
+</style></head><body><section class="t capa"><small>75 LAB para Arcor</small><h1>Conceitos de PDV</h1><p>7Belo, Butter Toffees, Rocklets e Tortuguita. Peças leves, médias e pesadas criadas no ChatGPT a partir dos key visuals. Marque Aprovo ou Não aprovo em cada conceito; só o aprovado segue para 3D, AR e engenharia.</p><span class="dica">Use as setas ou toque nas laterais</span></section>
+<section class="t marca" style="--c:#1B2A6B"><small>15 conceitos</small><h1>7Belo</h1></section>
+<section class="t peca" data-cod="7B-01" style="--c:#1B2A6B"><div class="foto"><img src="7belo/01-regua.jpg" alt="Régua de gôndola 7Belo"></div>
+<aside><b>7B-01</b><h2>Régua de gôndola</h2><p>7Belo · Peças leves<br>100 x 5 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-02" style="--c:#1B2A6B"><div class="foto"><img src="7belo/02-wobbler.jpg" alt="Wobbler 7Belo"></div>
+<aside><b>7B-02</b><h2>Wobbler</h2><p>7Belo · Peças leves<br>15 x 15 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-03" style="--c:#1B2A6B"><div class="foto"><img src="7belo/03-stopper.jpg" alt="Stopper 7Belo"></div>
+<aside><b>7B-03</b><h2>Stopper</h2><p>7Belo · Peças leves<br>20 x 30 x 0.2 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-04" style="--c:#1B2A6B"><div class="foto"><img src="7belo/04-testeira.jpg" alt="Testeira de gôndola 7Belo"></div>
+<aside><b>7B-04</b><h2>Testeira de gôndola</h2><p>7Belo · Peças leves<br>100 x 30 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-05" style="--c:#1B2A6B"><div class="foto"><img src="7belo/05-clipstrip.jpg" alt="Clip strip 7Belo"></div>
+<aside><b>7B-05</b><h2>Clip strip</h2><p>7Belo · Peças leves<br>12 x 80 x 1 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-06" style="--c:#1B2A6B"><div class="foto"><img src="7belo/06-adesivo-chao.jpg" alt="Adesivo de chão 7Belo"></div>
+<aside><b>7B-06</b><h2>Adesivo de chão</h2><p>7Belo · Peças leves<br>60 x 60 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-07" style="--c:#1B2A6B"><div class="foto"><img src="7belo/07-display-chao.jpg" alt="Display de chão 7Belo"></div>
+<aside><b>7B-07</b><h2>Display de chão</h2><p>7Belo · Peças médias<br>60 x 160 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-08" style="--c:#1B2A6B"><div class="foto"><img src="7belo/08-display-balcao.jpg" alt="Display de balcão 7Belo"></div>
+<aside><b>7B-08</b><h2>Display de balcão</h2><p>7Belo · Peças médias<br>40 x 35 x 28 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-09" style="--c:#1B2A6B"><div class="foto"><img src="7belo/09-totem.jpg" alt="Totem 7Belo"></div>
+<aside><b>7B-09</b><h2>Totem</h2><p>7Belo · Peças médias<br>60 x 180 x 35 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-10" style="--c:#1B2A6B"><div class="foto"><img src="7belo/10-ponta-gondola.jpg" alt="Ponta de gôndola 7Belo"></div>
+<aside><b>7B-10</b><h2>Ponta de gôndola</h2><p>7Belo · Peças médias<br>100 x 200 x 50 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-11" style="--c:#1B2A6B"><div class="foto"><img src="7belo/11-portal.jpg" alt="Portal de corredor 7Belo"></div>
+<aside><b>7B-11</b><h2>Portal de corredor</h2><p>7Belo · Peças médias<br>240 x 260 x 45 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-12" style="--c:#1B2A6B"><div class="foto"><img src="7belo/12-ilha.jpg" alt="Ilha promocional 7Belo"></div>
+<aside><b>7B-12</b><h2>Ilha promocional</h2><p>7Belo · Peças pesadas<br>200 x 140 x 120 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-13" style="--c:#1B2A6B"><div class="foto"><img src="7belo/13-store-in-store.jpg" alt="Store in store 7Belo"></div>
+<aside><b>7B-13</b><h2>Store in store</h2><p>7Belo · Peças pesadas<br>300 x 200 x 60 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-14" style="--c:#1B2A6B"><div class="foto"><img src="7belo/14-degustacao.jpg" alt="Ambientação de degustação 7Belo"></div>
+<aside><b>7B-14</b><h2>Ambientação de degustação</h2><p>7Belo · Peças pesadas<br>120 x 200 x 60 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="7B-15" style="--c:#1B2A6B"><div class="foto"><img src="7belo/15-fachada.jpg" alt="Fachada de loja 7Belo"></div>
+<aside><b>7B-15</b><h2>Fachada de loja</h2><p>7Belo · Peças pesadas<br>400 x 320 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t marca" style="--c:#2A1810"><small>15 conceitos</small><h1>Butter Toffees</h1></section>
+<section class="t peca" data-cod="BT-01" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/01-regua.jpg" alt="Régua de gôndola Butter Toffees"></div>
+<aside><b>BT-01</b><h2>Régua de gôndola</h2><p>Butter Toffees · Peças leves<br>100 x 5 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-02" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/02-wobbler.jpg" alt="Wobbler Butter Toffees"></div>
+<aside><b>BT-02</b><h2>Wobbler</h2><p>Butter Toffees · Peças leves<br>15 x 15 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-03" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/03-stopper.jpg" alt="Stopper Butter Toffees"></div>
+<aside><b>BT-03</b><h2>Stopper</h2><p>Butter Toffees · Peças leves<br>20 x 30 x 0.2 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-04" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/04-testeira.jpg" alt="Testeira de gôndola Butter Toffees"></div>
+<aside><b>BT-04</b><h2>Testeira de gôndola</h2><p>Butter Toffees · Peças leves<br>100 x 30 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-05" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/05-clipstrip.jpg" alt="Clip strip Butter Toffees"></div>
+<aside><b>BT-05</b><h2>Clip strip</h2><p>Butter Toffees · Peças leves<br>12 x 80 x 1 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-06" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/06-adesivo-chao.jpg" alt="Adesivo de chão Butter Toffees"></div>
+<aside><b>BT-06</b><h2>Adesivo de chão</h2><p>Butter Toffees · Peças leves<br>60 x 60 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-07" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/07-display-chao.jpg" alt="Display de chão Butter Toffees"></div>
+<aside><b>BT-07</b><h2>Display de chão</h2><p>Butter Toffees · Peças médias<br>60 x 160 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-08" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/08-display-balcao.jpg" alt="Display de balcão Butter Toffees"></div>
+<aside><b>BT-08</b><h2>Display de balcão</h2><p>Butter Toffees · Peças médias<br>40 x 35 x 28 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-09" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/09-totem.jpg" alt="Totem Butter Toffees"></div>
+<aside><b>BT-09</b><h2>Totem</h2><p>Butter Toffees · Peças médias<br>60 x 180 x 35 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-10" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/10-ponta-gondola.jpg" alt="Ponta de gôndola Butter Toffees"></div>
+<aside><b>BT-10</b><h2>Ponta de gôndola</h2><p>Butter Toffees · Peças médias<br>100 x 200 x 50 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-11" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/11-portal.jpg" alt="Portal de corredor Butter Toffees"></div>
+<aside><b>BT-11</b><h2>Portal de corredor</h2><p>Butter Toffees · Peças médias<br>240 x 260 x 45 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-12" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/12-ilha.jpg" alt="Ilha promocional Butter Toffees"></div>
+<aside><b>BT-12</b><h2>Ilha promocional</h2><p>Butter Toffees · Peças pesadas<br>200 x 140 x 120 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-13" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/13-store-in-store.jpg" alt="Store in store Butter Toffees"></div>
+<aside><b>BT-13</b><h2>Store in store</h2><p>Butter Toffees · Peças pesadas<br>300 x 200 x 60 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-14" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/14-degustacao.jpg" alt="Ambientação de degustação Butter Toffees"></div>
+<aside><b>BT-14</b><h2>Ambientação de degustação</h2><p>Butter Toffees · Peças pesadas<br>120 x 200 x 60 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="BT-15" style="--c:#2A1810"><div class="foto"><img src="butter-toffees/15-fachada.jpg" alt="Fachada de loja Butter Toffees"></div>
+<aside><b>BT-15</b><h2>Fachada de loja</h2><p>Butter Toffees · Peças pesadas<br>400 x 320 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t marca" style="--c:#141414"><small>15 conceitos</small><h1>Rocklets</h1></section>
+<section class="t peca" data-cod="RK-01" style="--c:#141414"><div class="foto"><img src="rocklets/01-regua.jpg" alt="Régua de gôndola Rocklets"></div>
+<aside><b>RK-01</b><h2>Régua de gôndola</h2><p>Rocklets · Peças leves<br>100 x 5 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-02" style="--c:#141414"><div class="foto"><img src="rocklets/02-wobbler.jpg" alt="Wobbler Rocklets"></div>
+<aside><b>RK-02</b><h2>Wobbler</h2><p>Rocklets · Peças leves<br>15 x 15 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-03" style="--c:#141414"><div class="foto"><img src="rocklets/03-stopper.jpg" alt="Stopper Rocklets"></div>
+<aside><b>RK-03</b><h2>Stopper</h2><p>Rocklets · Peças leves<br>20 x 30 x 0.2 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-04" style="--c:#141414"><div class="foto"><img src="rocklets/04-testeira.jpg" alt="Testeira de gôndola Rocklets"></div>
+<aside><b>RK-04</b><h2>Testeira de gôndola</h2><p>Rocklets · Peças leves<br>100 x 30 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-05" style="--c:#141414"><div class="foto"><img src="rocklets/05-clipstrip.jpg" alt="Clip strip Rocklets"></div>
+<aside><b>RK-05</b><h2>Clip strip</h2><p>Rocklets · Peças leves<br>12 x 80 x 1 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-06" style="--c:#141414"><div class="foto"><img src="rocklets/06-adesivo-chao.jpg" alt="Adesivo de chão Rocklets"></div>
+<aside><b>RK-06</b><h2>Adesivo de chão</h2><p>Rocklets · Peças leves<br>60 x 60 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-07" style="--c:#141414"><div class="foto"><img src="rocklets/07-display-chao.jpg" alt="Display de chão Rocklets"></div>
+<aside><b>RK-07</b><h2>Display de chão</h2><p>Rocklets · Peças médias<br>60 x 160 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-08" style="--c:#141414"><div class="foto"><img src="rocklets/08-display-balcao.jpg" alt="Display de balcão Rocklets"></div>
+<aside><b>RK-08</b><h2>Display de balcão</h2><p>Rocklets · Peças médias<br>40 x 35 x 28 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-09" style="--c:#141414"><div class="foto"><img src="rocklets/09-totem.jpg" alt="Totem Rocklets"></div>
+<aside><b>RK-09</b><h2>Totem</h2><p>Rocklets · Peças médias<br>60 x 180 x 35 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-10" style="--c:#141414"><div class="foto"><img src="rocklets/10-ponta-gondola.jpg" alt="Ponta de gôndola Rocklets"></div>
+<aside><b>RK-10</b><h2>Ponta de gôndola</h2><p>Rocklets · Peças médias<br>100 x 200 x 50 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-11" style="--c:#141414"><div class="foto"><img src="rocklets/11-portal.jpg" alt="Portal de corredor Rocklets"></div>
+<aside><b>RK-11</b><h2>Portal de corredor</h2><p>Rocklets · Peças médias<br>240 x 260 x 45 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-12" style="--c:#141414"><div class="foto"><img src="rocklets/12-ilha.jpg" alt="Ilha promocional Rocklets"></div>
+<aside><b>RK-12</b><h2>Ilha promocional</h2><p>Rocklets · Peças pesadas<br>200 x 140 x 120 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-13" style="--c:#141414"><div class="foto"><img src="rocklets/13-store-in-store.jpg" alt="Store in store Rocklets"></div>
+<aside><b>RK-13</b><h2>Store in store</h2><p>Rocklets · Peças pesadas<br>300 x 200 x 60 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-14" style="--c:#141414"><div class="foto"><img src="rocklets/14-degustacao.jpg" alt="Ambientação de degustação Rocklets"></div>
+<aside><b>RK-14</b><h2>Ambientação de degustação</h2><p>Rocklets · Peças pesadas<br>120 x 200 x 60 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="RK-15" style="--c:#141414"><div class="foto"><img src="rocklets/15-fachada.jpg" alt="Fachada de loja Rocklets"></div>
+<aside><b>RK-15</b><h2>Fachada de loja</h2><p>Rocklets · Peças pesadas<br>400 x 320 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t marca" style="--c:#1E5FD0"><small>10 conceitos</small><h1>Tortuguita</h1></section>
+<section class="t peca" data-cod="TG-01" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/01-regua.jpg" alt="Régua de gôndola Tortuguita"></div>
+<aside><b>TG-01</b><h2>Régua de gôndola</h2><p>Tortuguita · Peças leves<br>100 x 5 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-02" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/02-wobbler.jpg" alt="Wobbler Tortuguita"></div>
+<aside><b>TG-02</b><h2>Wobbler</h2><p>Tortuguita · Peças leves<br>15 x 15 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-03" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/03-stopper.jpg" alt="Stopper Tortuguita"></div>
+<aside><b>TG-03</b><h2>Stopper</h2><p>Tortuguita · Peças leves<br>20 x 30 x 0.2 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-04" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/04-testeira.jpg" alt="Testeira de gôndola Tortuguita"></div>
+<aside><b>TG-04</b><h2>Testeira de gôndola</h2><p>Tortuguita · Peças leves<br>100 x 30 x 0.3 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-05" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/05-clipstrip.jpg" alt="Clip strip Tortuguita"></div>
+<aside><b>TG-05</b><h2>Clip strip</h2><p>Tortuguita · Peças leves<br>12 x 80 x 1 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-06" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/06-adesivo-chao.jpg" alt="Adesivo de chão Tortuguita"></div>
+<aside><b>TG-06</b><h2>Adesivo de chão</h2><p>Tortuguita · Peças leves<br>60 x 60 x 0.05 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-07" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/07-display-chao.jpg" alt="Display de chão Tortuguita"></div>
+<aside><b>TG-07</b><h2>Display de chão</h2><p>Tortuguita · Peças médias<br>60 x 160 x 40 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-08" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/08-display-balcao.jpg" alt="Display de balcão Tortuguita"></div>
+<aside><b>TG-08</b><h2>Display de balcão</h2><p>Tortuguita · Peças médias<br>40 x 35 x 28 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-09" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/09-totem.jpg" alt="Totem Tortuguita"></div>
+<aside><b>TG-09</b><h2>Totem</h2><p>Tortuguita · Peças médias<br>60 x 180 x 35 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t peca" data-cod="TG-10" style="--c:#1E5FD0"><div class="foto"><img src="tortuguita/10-ponta-gondola.jpg" alt="Ponta de gôndola Tortuguita"></div>
+<aside><b>TG-10</b><h2>Ponta de gôndola</h2><p>Tortuguita · Peças médias<br>100 x 200 x 50 cm</p>
+<div class="voto"><button data-v="sim">Aprovo</button><button data-v="nao">Não aprovo</button></div></aside></section>
+<section class="t fim"><h1>Sua resposta</h1><pre id="resumo"></pre><button id="copiar">Copiar resposta</button></section>
+<div id="barra"><button id="ant" aria-label="Anterior">‹</button><span id="num"></span><i><b></b></i><button id="prox" aria-label="Próxima">›</button></div>
 <script>
-const K='arcor-conceitos-votos';let v={};try{v=JSON.parse(localStorage.getItem(K))||{}}catch(e){}
-const pinta=()=>document.querySelectorAll('.card').forEach(c=>{c.classList.remove('sim','nao');if(v[c.dataset.cod])c.classList.add(v[c.dataset.cod])});pinta();
-document.addEventListener('click',e=>{const b=e.target.closest('.voto button');if(b){const c=b.closest('.card').dataset.cod;v[c]=v[c]===b.dataset.v?undefined:b.dataset.v;
-try{localStorage.setItem(K,JSON.stringify(v))}catch(e){}pinta();return}
-const i=e.target.closest('.card img');const z=document.getElementById('zoom');if(i){z.querySelector('img').src=i.src;z.classList.add('on')}else if(e.target.closest('#zoom'))z.classList.remove('on')});
-document.getElementById('copiar').onclick=()=>{const s=Object.keys(v).filter(k=>v[k]==='sim'),n=Object.keys(v).filter(k=>v[k]==='nao');
-const t='Aprovados: '+(s.join(', ')||'nenhum')+'\nNão aprovados: '+(n.join(', ')||'nenhum');navigator.clipboard.writeText(t).then(()=>{const a=document.getElementById('aviso');a.style.opacity=1;setTimeout(()=>a.style.opacity=0,1600)})};
+const T=[...document.querySelectorAll('.t')],K='arcor-conceitos-votos';let i=0,v={};try{v=JSON.parse(localStorage.getItem(K))||{}}catch(e){}
+try{i=Math.min(+(location.hash.slice(1))||0,T.length-1)}catch(e){}
+const resumo=()=>{const s=Object.keys(v).filter(k=>v[k]==='sim').sort(),n=Object.keys(v).filter(k=>v[k]==='nao').sort();
+ return 'Aprovados: '+(s.join(', ')||'nenhum')+'\nNão aprovados: '+(n.join(', ')||'nenhum')};
+const ver=()=>{T.forEach((t,k)=>{t.classList.toggle('on',k===i);if(t.dataset.cod){t.classList.remove('sim','nao');if(v[t.dataset.cod])t.classList.add(v[t.dataset.cod])}});
+ document.getElementById('num').textContent=(i+1)+' / '+T.length;document.querySelector('#barra i b').style.width=(100*(i+1)/T.length)+'%';
+ document.getElementById('resumo').textContent=resumo();history.replaceState(null,'','#'+i)};
+const ir=d=>{i=Math.max(0,Math.min(T.length-1,i+d));ver()};ver();
+document.getElementById('ant').onclick=()=>ir(-1);document.getElementById('prox').onclick=()=>ir(1);
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();ir(1)}if(['ArrowLeft','PageUp'].includes(e.key))ir(-1)});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>50)ir(d<0?1:-1);x0=null});
+document.addEventListener('click',e=>{const b=e.target.closest('.voto button');if(!b)return;const c=b.closest('.peca').dataset.cod;
+ if(v[c]===b.dataset.v)delete v[c];else v[c]=b.dataset.v;try{localStorage.setItem(K,JSON.stringify(v))}catch(e){}ver()});
+document.getElementById('copiar').onclick=()=>navigator.clipboard.writeText(resumo()).then(()=>{document.getElementById('copiar').textContent='Copiado'});
 </script></body></html>
